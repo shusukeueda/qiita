@@ -3,7 +3,7 @@ import math
 
 from scoop import futures
 
-data = [i for i in range(12)]
+data = range(12)
 
 def func(num):
     time.sleep(0.1)
